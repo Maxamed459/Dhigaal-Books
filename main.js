@@ -40,7 +40,7 @@ allProducts = [
 // displaying all products
 let productContainer = document.getElementById("productContainer");
 allProducts.forEach( (product) => {
-    productContainer.innerHTML += `<div class="book-card bg-gray-100 p-3">
+    productContainer.innerHTML += `<div class="book-card bg-gray-100 p-3 hover:shadow-xl">
                     <img src="${product.image}" alt="book" class="w-full object-cover">
                     <div class="book-info py-3">
                         <h1 class="text-xl font-inter font-bold text-[#161616]">${product.name}</h1>
